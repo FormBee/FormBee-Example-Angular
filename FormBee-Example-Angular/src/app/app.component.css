@@ -1,0 +1,60 @@
+/* Center the h1 and make it bold */
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 2rem;
+    color: #333;
+  }
+  
+  /* Style for the form container to take up most of the screen */
+  form {
+    max-width: 90%;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* General input styles */
+  form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  form input[type="email"],
+  form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1rem;
+  }
+  
+  /* Button styles */
+  form button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    background-color: #ffc619;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.25rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  form button[type="submit"]:hover {
+    background-color: #ffc619;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 600px) {
+    form {
+      padding: 1.5rem;
+    }
+  }
